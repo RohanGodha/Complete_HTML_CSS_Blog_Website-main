@@ -348,6 +348,9 @@ a{
     z-index: 99;
     width: 100%;
 }
+.sm-hide{
+    display: inline;
+}
 
 .sticky + .content{
     padding-top: 60px;
@@ -456,4 +459,9 @@ a{
         margin-top: 6em;
     }
 
+}
+@media (max-width : 630px){
+    .sm-hide{
+        display: none;
+    }
 }
