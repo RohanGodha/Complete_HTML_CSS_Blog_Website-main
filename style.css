@@ -4,15 +4,15 @@
 
 :root{
     --light : #f8f9fa;
-    --secondary: #adb5bd;
-    --dark: #343a40;
-    --primary-color: #f15bb5;
-    --secondary-color: #2ec4b6;
+    --secondary: #a3a3a3;
+    --dark: #363636;
+    --primary-color: #fd82cc;
+    --secondary-color: #a74aff;
     --border : #e9ecef;
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins';
     padding: 0;
     margin: 0;
 }
@@ -246,11 +246,17 @@ a{
 
 .grid{
     margin: 0 auto;
+    
 }
 
 .grid .grid-item{
     width: calc(33.3333% - 20px);
     margin-bottom: 3em;
+    
+}
+.grid.card-body{
+    border-radius: 10;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* ----------- .Main Section ---------- */
