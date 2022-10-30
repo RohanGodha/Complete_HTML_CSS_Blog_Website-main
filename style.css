@@ -11,6 +11,15 @@
     --border : #e9ecef;
 }
 
+.btn-tool{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #ffdb9d;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     padding: 0;
