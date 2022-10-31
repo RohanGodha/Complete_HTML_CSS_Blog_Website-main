@@ -1,0 +1,23 @@
+hey guys , today i just want to share my thoughts about html and css.
+html is the basic step for builing a website , followed by css and javascript .
+css may be referred to as giving a good look to your website and making it more exciting and user friendly.
+css provide
+When going somewhere does a thing: on links and buttons
+Accessibility
+At the Fronteers conference, Manuel during his presentation did an exercise on building HTML that seemed fairly straightforward. On the site of Max Böck there's a thing you can click to open up a theme selector. What's that thing?
+
+On better browsers: arbitrary media queries and browser UIs
+CSS & HTML
+This morning Kitty Giraudel tweeted about an imaginary media query that would indicate right- or left-handedness and it made me imagine a future where sites can register support for one or more media features through a browser API, and the browser would offer these options in the UI.
+
+Do you know about overflow: clip?
+CSS & HTML
+You probably know overflow: hidden, overflow: scroll and overflow: auto, but do you know overflow: clip? It's a relatively new value for the overflow property, and with Safari 16 being released later this year all evergreen browsers will support it. So what does it do?
+
+Are you sure that’s a number input?
+Accessibility
+We've had inputs with the number type broadly available in browsers for about 8 years now. These inputs show a little rocker and can be used for, you guessed it, numerical input. But not every input that contains numbers should have an input type number.
+
+Digging Deep into Media Queries with Alex Trost of Frontend.horse
+CSS & HTML
+On the Frontend horse Livestream (Which I highly recommend you subscribe to!) I joined Alex Trost to take a look at the Frontend.horse site to add support for the many different user preference media queries that exist now: prefers-color-scheme, prefers-reduced-motion
