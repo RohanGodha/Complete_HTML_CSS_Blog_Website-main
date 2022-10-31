@@ -2,19 +2,7 @@
 
 /* root styling */
 
-:root {
-  --light: #f8f9fa;
-  --secondary: #adb5bd;
-  --dark: #343a40;
-  --primary-color: #f15bb5;
-  --secondary-color: #2ec4b6;
-  --border: #e9ecef;
-}
 
-body {
-  font-family: "Roboto", sans-serif;
-  padding: 0;
-  margin: 0;
 }
 
 a {
@@ -242,13 +230,7 @@ a {
   margin-bottom: 5em;
 }
 
-.grid {
-  margin: 0 auto;
-}
 
-.grid .grid-item {
-  width: calc(33.3333% - 20px);
-  margin-bottom: 3em;
 }
 
 /* ----------- .Main Section ---------- */
@@ -344,6 +326,9 @@ a {
   top: 0;
   z-index: 99;
   width: 100%;
+}
+.sm-hide{
+    display: inline;
 }
 
 .sticky + .content {
@@ -490,6 +475,3 @@ a {
   color: #989aa7;
 }
 
-/*-----------------------
-    Footer ends
--------------------------*/
