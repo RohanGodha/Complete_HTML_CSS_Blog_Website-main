@@ -3,7 +3,7 @@
 /* root styling */
 
 
-}
+
 
 a {
   text-decoration: none;
@@ -231,7 +231,7 @@ a {
 }
 
 
-}
+
 
 /* ----------- .Main Section ---------- */
 
@@ -290,6 +290,20 @@ a {
 
 .post-footer .post-comments .reply {
   padding-left: 7em;
+}
+
+.btn-tool {
+  border: 1px solid #65697a;
+  padding: .5em 1em;
+  cursor: pointer;
+  margin: 0 .5em;
+  color: #65697a;
+
+}
+
+.btn-tool:hover {
+  border-color: #007aff;
+  color: #007aff;
 }
 
 .form-control {
